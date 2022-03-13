@@ -1,0 +1,347 @@
+\documentstyle[12pt]{article}
+\textwidth 17cm
+\textheight 25cm
+\hoffset -3cm
+\voffset -1cm
+\pagestyle{empty}
+\begin{document}
+\begin{center}
+
+\begin{tabular}{|l|l|} \hline
+Fields in the vertex & Variational derivative of Lagrangian by fields \\ \hline
+${A}_{\mu }$ \phantom{-} $W^+{}_{\nu }$ \phantom{-} $W^-{}_{\rho }$ \phantom{-}  &
+	$- e\big(p_2^\rho g^{\mu \nu} -p_2^\mu g^{\nu \rho} -p_3^\nu g^{\mu \rho} +p_3^\mu g^{\nu \rho} +p_1^\nu g^{\mu \rho} -p_1^\rho g^{\mu \nu} \big)$\\[2mm]
+${A}_{\mu }$ \phantom{-} $W^+{}_{\nu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$ i \cdot e \cdot M_W\cdot g^{\mu \nu} $\\[2mm]
+${A}_{\mu }$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-{}_{\nu }$ \phantom{-}  &
+	$- i \cdot e \cdot M_W\cdot g^{\mu \nu} $\\[2mm]
+${A}_{\mu }$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$ e\big(p_3^\mu -p_2^\mu \big)$\\[2mm]
+$\bar{C}^A{}_{}$ \phantom{-} $C^{W+}{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$- e\cdot p_1^\mu $\\[2mm]
+$\bar{C}^A{}_{}$ \phantom{-} $C^{W-}{}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$ e\cdot p_1^\mu $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$\frac{1}{3} e\delta_{p q} \gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} ${G}_{\mu r }$ \phantom{-}  &
+	$ g_s\cdot \lambda_{p q}^r \gamma_{a b}^\mu $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_b}{ M_W \cdot s_w}\delta_{p q} \cdot \delta_{a b} $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{6}\frac{ e}{ c_w \cdot s_w}\delta_{p q} \gamma_{a c}^\mu \big(2 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} - (3-2 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_b}{ M_W \cdot s_w}\delta_{p q} \cdot \gamma_{a b}^5 $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vcb}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vcb}{ M_W \cdot s_w}\delta_{p q} \big( M_b\cdot {(1-\gamma^5)_{a b}\over 2} - M_c\cdot {(1+\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vtb}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vtb}{ M_W \cdot s_w}\delta_{p q} \big( M_b\cdot {(1-\gamma^5)_{a b}\over 2} - M_t\cdot {(1+\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vub}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{b}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_b \cdot\sqrt{2} \cdot Vub}{ M_W \cdot s_w}\cdot \delta_{p q} {(1-\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vcb}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vcb}{ M_W \cdot s_w}\delta_{p q} \big( M_b\cdot {(1+\gamma^5)_{a b}\over 2} - M_c\cdot {(1-\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$-\frac{2}{3} e\delta_{p q} \gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} ${G}_{\mu r }$ \phantom{-}  &
+	$ g_s\cdot \lambda_{p q}^r \gamma_{a b}^\mu $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_c}{ M_W \cdot s_w}\delta_{p q} \cdot \delta_{a b} $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{6}\frac{ e}{ c_w \cdot s_w}\delta_{p q} \gamma_{a c}^\mu \big( (3-4 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} -4 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_c}{ M_W \cdot s_w}\delta_{p q} \cdot \gamma_{a b}^5 $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vcd}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\ \hline
+\end{tabular}
+
+\begin{tabular}{|l|l|} \hline
+Fields in the vertex & Variational derivative of Lagrangian by fields \\ \hline
+$\bar{c}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_c \cdot\sqrt{2} \cdot Vcd}{ M_W \cdot s_w}\cdot \delta_{p q} {(1-\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vcs}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{c}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vcs}{ M_W \cdot s_w}\delta_{p q} \big( M_s\cdot {(1+\gamma^5)_{a b}\over 2} - M_c\cdot {(1-\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vcd}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_c \cdot\sqrt{2} \cdot Vcd}{ M_W \cdot s_w}\cdot \delta_{p q} {(1+\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$\frac{1}{3} e\delta_{p q} \gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} ${G}_{\mu r }$ \phantom{-}  &
+	$ g_s\cdot \lambda_{p q}^r \gamma_{a b}^\mu $\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{6}\frac{ e}{ c_w \cdot s_w}\delta_{p q} \gamma_{a c}^\mu \big(2 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} - (3-2 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vtd}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_t \cdot\sqrt{2} \cdot Vtd}{ M_W \cdot s_w}\cdot \delta_{p q} {(1+\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{d}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vud}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{e}{}_{a }$ \phantom{-} $e{}_{b }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$ e\gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{e}{}_{a }$ \phantom{-} $e{}_{b }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e}{ c_w \cdot s_w}\gamma_{a c}^\mu \big( (1-2 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} -2 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$\bar{e}{}_{a }$ \phantom{-} $\nu^e{}_{b }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2}}{ s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{\mu}{}_{a }$ \phantom{-} $\mu{}_{b }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$ e\gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{\mu}{}_{a }$ \phantom{-} $\mu{}_{b }$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_\mu}{ M_W \cdot s_w}\cdot \delta_{a b} $\\[2mm]
+$\bar{\mu}{}_{a }$ \phantom{-} $\mu{}_{b }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e}{ c_w \cdot s_w}\gamma_{a c}^\mu \big( (1-2 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} -2 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$\bar{\mu}{}_{a }$ \phantom{-} $\mu{}_{b }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_\mu}{ M_W \cdot s_w}\cdot \gamma_{a b}^5 $\\[2mm]
+$\bar{\mu}{}_{a }$ \phantom{-} $\nu^\mu{}_{b }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2}}{ s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{\mu}{}_{a }$ \phantom{-} $\nu^\mu{}_{b }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_\mu \cdot\sqrt{2}}{ M_W \cdot s_w}\cdot {(1-\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{\tau}{}_{a }$ \phantom{-} $\tau{}_{b }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$ e\gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{\tau}{}_{a }$ \phantom{-} $\tau{}_{b }$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_\tau}{ M_W \cdot s_w}\cdot \delta_{a b} $\\[2mm]
+$\bar{\tau}{}_{a }$ \phantom{-} $\tau{}_{b }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e}{ c_w \cdot s_w}\gamma_{a c}^\mu \big( (1-2 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} -2 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$\bar{\tau}{}_{a }$ \phantom{-} $\tau{}_{b }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_\tau}{ M_W \cdot s_w}\cdot \gamma_{a b}^5 $\\[2mm]
+$\bar{\tau}{}_{a }$ \phantom{-} $\nu^\tau{}_{b }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2}}{ s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\ \hline
+\end{tabular}
+
+\begin{tabular}{|l|l|} \hline
+Fields in the vertex & Variational derivative of Lagrangian by fields \\ \hline
+$\bar{\tau}{}_{a }$ \phantom{-} $\nu^\tau{}_{b }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_\tau \cdot\sqrt{2}}{ M_W \cdot s_w}\cdot {(1-\gamma^5)_{a b}\over 2} $\\[2mm]
+${G}_{\mu p }$ \phantom{-} ${G}_{\nu q }$ \phantom{-} ${G}_{\rho r }$ \phantom{-}  &
+	$ g_sf_{p q r} \big(p_3^\nu g^{\mu \rho} -p_3^\mu g^{\nu \rho} +p_1^\rho g^{\mu \nu} -p_1^\nu g^{\mu \rho} -p_2^\rho g^{\mu \nu} +p_2^\mu g^{\nu \rho} \big)$\\[2mm]
+$\bar{C}^G{}_{p }$ \phantom{-} $C^G{}_{q }$ \phantom{-} ${G}_{\mu r }$ \phantom{-}  &
+	$ g_s\cdot p_2^\mu f_{p q r} $\\[2mm]
+${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{3}{2}\frac{ e \cdot MH{}^2 }{ M_W \cdot s_w}$\\[2mm]
+${H}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-} $W^-{}_{\nu }$ \phantom{-}  &
+	$\frac{ e \cdot M_W}{ s_w}\cdot g^{\mu \nu} $\\[2mm]
+${H}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e}{ s_w}\big(p_3^\mu -p_1^\mu \big)$\\[2mm]
+${H}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e}{ s_w}\big(p_1^\mu -p_2^\mu \big)$\\[2mm]
+${H}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot MH{}^2 }{ M_W \cdot s_w}$\\[2mm]
+${H}_{}$ \phantom{-} ${Z}_{\mu }$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$\frac{ e \cdot M_W}{ c_w{}^2  \cdot s_w}\cdot g^{\mu \nu} $\\[2mm]
+${H}_{}$ \phantom{-} ${Z}_{\mu }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e}{ c_w \cdot s_w}\big(p_3^\mu -p_1^\mu \big)$\\[2mm]
+${H}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot MH{}^2 }{ M_W \cdot s_w}$\\[2mm]
+$\bar{\nu}^e{}_{a }$ \phantom{-} $e{}_{b }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2}}{ s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{\nu}^e{}_{a }$ \phantom{-} $\nu^e{}_{b }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e}{ c_w \cdot s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{\nu}^\mu{}_{a }$ \phantom{-} $\mu{}_{b }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2}}{ s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{\nu}^\mu{}_{a }$ \phantom{-} $\mu{}_{b }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_\mu \cdot\sqrt{2}}{ M_W \cdot s_w}\cdot {(1+\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{\nu}^\mu{}_{a }$ \phantom{-} $\nu^\mu{}_{b }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e}{ c_w \cdot s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{\nu}^\tau{}_{a }$ \phantom{-} $\tau{}_{b }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2}}{ s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{\nu}^\tau{}_{a }$ \phantom{-} $\tau{}_{b }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_\tau \cdot\sqrt{2}}{ M_W \cdot s_w}\cdot {(1+\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{\nu}^\tau{}_{a }$ \phantom{-} $\nu^\tau{}_{b }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e}{ c_w \cdot s_w}\cdot \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vcs}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $c{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vcs}{ M_W \cdot s_w}\delta_{p q} \big( M_s\cdot {(1-\gamma^5)_{a b}\over 2} - M_c\cdot {(1+\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$\frac{1}{3} e\delta_{p q} \gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} ${G}_{\mu r }$ \phantom{-}  &
+	$ g_s\cdot \lambda_{p q}^r \gamma_{a b}^\mu $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_s}{ M_W \cdot s_w}\delta_{p q} \cdot \delta_{a b} $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{6}\frac{ e}{ c_w \cdot s_w}\delta_{p q} \gamma_{a c}^\mu \big(2 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} - (3-2 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} \big)$\\ \hline
+\end{tabular}
+
+\begin{tabular}{|l|l|} \hline
+Fields in the vertex & Variational derivative of Lagrangian by fields \\ \hline
+$\bar{s}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_s}{ M_W \cdot s_w}\delta_{p q} \cdot \gamma_{a b}^5 $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vts}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vts}{ M_W \cdot s_w}\delta_{p q} \big( M_s\cdot {(1-\gamma^5)_{a b}\over 2} - M_t\cdot {(1+\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vus}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{s}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_s \cdot\sqrt{2} \cdot Vus}{ M_W \cdot s_w}\cdot \delta_{p q} {(1-\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vtb}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vtb}{ M_W \cdot s_w}\delta_{p q} \big( M_b\cdot {(1+\gamma^5)_{a b}\over 2} - M_t\cdot {(1-\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vtd}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_t \cdot\sqrt{2} \cdot Vtd}{ M_W \cdot s_w}\cdot \delta_{p q} {(1-\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vts}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot\sqrt{2} \cdot Vts}{ M_W \cdot s_w}\delta_{p q} \big( M_s\cdot {(1+\gamma^5)_{a b}\over 2} - M_t\cdot {(1-\gamma^5)_{a b}\over 2} \big)$\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$-\frac{2}{3} e\delta_{p q} \gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} ${G}_{\mu r }$ \phantom{-}  &
+	$ g_s\cdot \lambda_{p q}^r \gamma_{a b}^\mu $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_t}{ M_W \cdot s_w}\delta_{p q} \cdot \delta_{a b} $\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{6}\frac{ e}{ c_w \cdot s_w}\delta_{p q} \gamma_{a c}^\mu \big( (3-4 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} -4 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$\bar{t}{}_{a p }$ \phantom{-} $t{}_{b q }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_t}{ M_W \cdot s_w}\delta_{p q} \cdot \gamma_{a b}^5 $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vub}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $b{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_b \cdot\sqrt{2} \cdot Vub}{ M_W \cdot s_w}\cdot \delta_{p q} {(1+\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $d{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vud}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot\sqrt{2} \cdot Vus}{ s_w}\cdot \delta_{p q} \gamma_{a c}^\mu {(1-\gamma^5)_{c b}\over 2} $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $s{}_{b q }$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_s \cdot\sqrt{2} \cdot Vus}{ M_W \cdot s_w}\cdot \delta_{p q} {(1+\gamma^5)_{a b}\over 2} $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$-\frac{2}{3} e\delta_{p q} \gamma_{a c}^\mu \cdot \delta_{c b} $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} ${G}_{\mu r }$ \phantom{-}  &
+	$ g_s\cdot \lambda_{p q}^r \gamma_{a b}^\mu $\\[2mm]
+$\bar{u}{}_{a p }$ \phantom{-} $u{}_{b q }$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{1}{6}\frac{ e}{ c_w \cdot s_w}\delta_{p q} \gamma_{a c}^\mu \big( (3-4 s_w {}^2)\cdot {(1-\gamma^5)_{c b}\over 2} -4 s_w{}^2 \cdot {(1+\gamma^5)_{c b}\over 2} \big)$\\[2mm]
+$W^+{}_{\mu }$ \phantom{-} $W^-{}_{\nu }$ \phantom{-} ${Z}_{\rho }$ \phantom{-}  &
+	$-\frac{ c_w \cdot e}{ s_w}\big(p_1^\nu g^{\mu \rho} -p_1^\rho g^{\mu \nu} -p_2^\mu g^{\nu \rho} +p_2^\rho g^{\mu \nu} +p_3^\mu g^{\nu \rho} -p_3^\nu g^{\mu \rho} \big)$\\ \hline
+\end{tabular}
+
+\begin{tabular}{|l|l|} \hline
+Fields in the vertex & Variational derivative of Lagrangian by fields \\ \hline
+$W^+{}_{\mu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$-\frac{ i \cdot e \cdot M_W \cdot s_w}{ c_w}\cdot g^{\mu \nu} $\\[2mm]
+$W^+{}_{\mu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e}{ s_w}\big(p_2^\mu -p_3^\mu \big)$\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$ e\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$- i \cdot e \cdot M_W$\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{W-}{}_{}$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$- e\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{W-}{}_{}$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_W}{ s_w}$\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{W-}{}_{}$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$-\frac{ c_w \cdot e}{ s_w}\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{W-}{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_W}{ s_w}$\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$\frac{ c_w \cdot e}{ s_w}\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W+}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot (1-2 s_w {}^2) \cdot e \cdot M_W}{ c_w \cdot s_w}$\\[2mm]
+$W^+_F{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$\frac{ i \cdot e \cdot M_W \cdot s_w}{ c_w}\cdot g^{\mu \nu} $\\[2mm]
+$W^+_F{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e}{ s_w}\big(p_3^\mu -p_1^\mu \big)$\\[2mm]
+$W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ (1-2 s_w {}^2) \cdot e}{ c_w \cdot s_w}\big(p_2^\mu -p_1^\mu \big)$\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$- e\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$ i \cdot e \cdot M_W$\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{W+}{}_{}$ \phantom{-} ${A}_{\mu }$ \phantom{-}  &
+	$ e\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{W+}{}_{}$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_W}{ s_w}$\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{W+}{}_{}$ \phantom{-} ${Z}_{\mu }$ \phantom{-}  &
+	$\frac{ c_w \cdot e}{ s_w}\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{W+}{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_W}{ s_w}$\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$-\frac{ c_w \cdot e}{ s_w}\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{W-}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot (1-2 s_w {}^2) \cdot e \cdot M_W}{ c_w \cdot s_w}$\\[2mm]
+$\bar{C}^{Z}{}_{}$ \phantom{-} $C^{W+}{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-}  &
+	$-\frac{ c_w \cdot e}{ s_w}\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{Z}{}_{}$ \phantom{-} $C^{W+}{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e \cdot M_W}{ c_w \cdot s_w}$\\[2mm]
+$\bar{C}^{Z}{}_{}$ \phantom{-} $C^{W-}{}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-}  &
+	$\frac{ c_w \cdot e}{ s_w}\cdot p_1^\mu $\\[2mm]
+$\bar{C}^{Z}{}_{}$ \phantom{-} $C^{W-}{}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e \cdot M_W}{ c_w \cdot s_w}$\\ \hline
+\end{tabular}
+
+\begin{tabular}{|l|l|} \hline
+Fields in the vertex & Variational derivative of Lagrangian by fields \\ \hline
+$\bar{C}^{Z}{}_{}$ \phantom{-} $C^{Z}{}_{}$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e \cdot M_W}{ c_w{}^2  \cdot s_w}$\\[2mm]
+${A}_{\mu }$ \phantom{-} ${A}_{\nu }$ \phantom{-} $W^+{}_{\rho }$ \phantom{-} $W^-{}_{\sigma }$ \phantom{-}  &
+	$- e{}^2 \big(2g^{\mu \nu} g^{\rho \sigma} -g^{\mu \rho} g^{\nu \sigma} -g^{\mu \sigma} g^{\nu \rho} \big)$\\[2mm]
+${A}_{\mu }$ \phantom{-} ${A}_{\nu }$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$2 e{}^2 \cdot g^{\mu \nu} $\\[2mm]
+${A}_{\mu }$ \phantom{-} ${H}_{}$ \phantom{-} $W^+{}_{\nu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e{}^2 }{ s_w}\cdot g^{\mu \nu} $\\[2mm]
+${A}_{\mu }$ \phantom{-} ${H}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-{}_{\nu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e{}^2 }{ s_w}\cdot g^{\mu \nu} $\\[2mm]
+${A}_{\mu }$ \phantom{-} $W^+{}_{\nu }$ \phantom{-} $W^-{}_{\rho }$ \phantom{-} ${Z}_{\sigma }$ \phantom{-}  &
+	$-\frac{ c_w \cdot e{}^2 }{ s_w}\big(2g^{\mu \sigma} g^{\nu \rho} -g^{\mu \nu} g^{\rho \sigma} -g^{\mu \rho} g^{\nu \sigma} \big)$\\[2mm]
+${A}_{\mu }$ \phantom{-} $W^+{}_{\nu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e{}^2 }{ s_w}\cdot g^{\mu \nu} $\\[2mm]
+${A}_{\mu }$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-{}_{\nu }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e{}^2 }{ s_w}\cdot g^{\mu \nu} $\\[2mm]
+${A}_{\mu }$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$\frac{ (1-2 s_w {}^2) \cdot e{}^2 }{ c_w \cdot s_w}\cdot g^{\mu \nu} $\\[2mm]
+${G}_{\mu p }$ \phantom{-} ${G}_{\nu q }$ \phantom{-} ${G}_{\rho r }$ \phantom{-} ${G}_{\sigma s }$ \phantom{-}  &
+	$ g_s{}^2 \big(g^{\mu \rho} g^{\nu \sigma} f_{p q t} f_{r s t} -g^{\mu \sigma} g^{\nu \rho} f_{p q t} f_{r s t} +g^{\mu \nu} g^{\rho \sigma} f_{p r t} f_{q s t} $ \\[2mm]
+  & $-g^{\mu \sigma} g^{\nu \rho} f_{p r t} f_{q s t} +g^{\mu \nu} g^{\rho \sigma} f_{p s t} f_{q r t} -g^{\mu \rho} g^{\nu \sigma} f_{p s t} f_{q r t} \big)$\\[2mm]
+${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-}  &
+	$-\frac{3}{4}\frac{ e{}^2  \cdot MH{}^2 }{ M_W{}^2  \cdot s_w{}^2 }$\\[2mm]
+${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-} $W^-{}_{\nu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e{}^2 }{ s_w{}^2 }\cdot g^{\mu \nu} $\\[2mm]
+${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{4}\frac{ e{}^2  \cdot MH{}^2 }{ M_W{}^2  \cdot s_w{}^2 }$\\[2mm]
+${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-} ${Z}_{\mu }$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e{}^2 }{ c_w{}^2  \cdot s_w{}^2 }\cdot g^{\mu \nu} $\\[2mm]
+${H}_{}$ \phantom{-} ${H}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{4}\frac{ e{}^2  \cdot MH{}^2 }{ M_W{}^2  \cdot s_w{}^2 }$\\[2mm]
+${H}_{}$ \phantom{-} $W^+{}_{\mu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ i \cdot e{}^2 }{ c_w}\cdot g^{\mu \nu} $\\[2mm]
+${H}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ i \cdot e{}^2 }{ c_w}\cdot g^{\mu \nu} $\\[2mm]
+$W^+{}_{\mu }$ \phantom{-} $W^+{}_{\nu }$ \phantom{-} $W^-{}_{\rho }$ \phantom{-} $W^-{}_{\sigma }$ \phantom{-}  &
+	$\frac{ e{}^2 }{ s_w{}^2 }\big(2g^{\mu \nu} g^{\rho \sigma} -g^{\mu \sigma} g^{\nu \rho} -g^{\mu \rho} g^{\nu \sigma} \big)$\\[2mm]
+$W^+{}_{\mu }$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-{}_{\nu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e{}^2 }{ s_w{}^2 }\cdot g^{\mu \nu} $\\[2mm]
+$W^+{}_{\mu }$ \phantom{-} $W^-{}_{\nu }$ \phantom{-} ${Z}_{\rho }$ \phantom{-} ${Z}_{\sigma }$ \phantom{-}  &
+	$-\frac{ c_w{}^2  \cdot e{}^2 }{ s_w{}^2 }\big(2g^{\mu \nu} g^{\rho \sigma} -g^{\mu \rho} g^{\nu \sigma} -g^{\mu \sigma} g^{\nu \rho} \big)$\\[2mm]
+$W^+{}_{\mu }$ \phantom{-} $W^-{}_{\nu }$ \phantom{-} $Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e{}^2 }{ s_w{}^2 }\cdot g^{\mu \nu} $\\[2mm]
+$W^+{}_{\mu }$ \phantom{-} $W^-_F{}_{}$ \phantom{-} ${Z}_{\nu }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e{}^2 }{ c_w}\cdot g^{\mu \nu} $\\[2mm]
+$W^+_F{}_{}$ \phantom{-} $W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{2}\frac{ e{}^2  \cdot MH{}^2 }{ M_W{}^2  \cdot s_w{}^2 }$\\[2mm]
+$W^+_F{}_{}$ \phantom{-} $W^-{}_{\mu }$ \phantom{-} ${Z}_{\nu }$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e{}^2 }{ c_w}\cdot g^{\mu \nu} $\\ \hline
+\end{tabular}
+
+\begin{tabular}{|l|l|} \hline
+Fields in the vertex & Variational derivative of Lagrangian by fields \\ \hline
+$W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-} ${Z}_{\mu }$ \phantom{-} ${Z}_{\nu }$ \phantom{-}  &
+	$\frac{1}{2}\frac{ (1-2 s_w {}^2){}^2  \cdot e{}^2 }{ c_w{}^2  \cdot s_w{}^2 }\cdot g^{\mu \nu} $\\[2mm]
+$W^+_F{}_{}$ \phantom{-} $W^-_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{1}{4}\frac{ e{}^2  \cdot MH{}^2 }{ M_W{}^2  \cdot s_w{}^2 }$\\[2mm]
+${Z}_{\mu }$ \phantom{-} ${Z}_{\nu }$ \phantom{-} $Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$\frac{1}{2}\frac{ e{}^2 }{ c_w{}^2  \cdot s_w{}^2 }\cdot g^{\mu \nu} $\\[2mm]
+$Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-} $Z_F{}_{}$ \phantom{-}  &
+	$-\frac{3}{4}\frac{ e{}^2  \cdot MH{}^2 }{ M_W{}^2  \cdot s_w{}^2 }$\\ \hline
+\end{tabular}
+
+\end{center}
+\end{document}
+
