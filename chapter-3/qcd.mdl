@@ -1,0 +1,8 @@
+model QCD/2.
+parameter gg = 1.117:'Strong Coupling'.
+spinor q/Q:(quark, mq=0.01, color c3)
+vector G/G:(gluon, color c8, gauge).
+let F^mu^nu^a= deriv^nu*G^mu^a - deriv^mu*G^nu^a - gg*f_SU3^a^b^c*G^mu^b*G^nu^c.
+lterm 
+%to be updated
+

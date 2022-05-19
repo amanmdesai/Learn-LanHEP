@@ -1,0 +1,9 @@
+model QED/1.
+parameter ee=0.31333:'elementary electric charge'. % sqrt(4pi alpha) or charge/sqrt(epsilon * h * c) 
+spinor e1/E1:(electron, mass me=0.000511).
+vector A/A:(photon).
+let F^mu^nu=deriv^mu*A^nu-deriv^nu*A^mu. %electromagnetic field tensor
+lterm -1/4*(F^mu^nu)**2 - 1/2*(deriv^mu*A^nu)**2.
+lterm -1/4*(F^mu^nu)**2 - 1/2*(deriv^mu*A^mu)**2.
+lterm E1*(i*gamma*deriv+me)*e1.
+lterm ee*E1*gamma*A*e1. 
